@@ -13,18 +13,18 @@ public class Exemplo2 {
 			
 			double IMC = peso/(altura*altura);
 			
-			System.out.println("O seu IMC é de: "+ IMC);
+			System.out.println("O seu IMC Ã© de: "+ IMC);
 			
 			if(IMC < 18.5){
-				System.out.print("Você está com baixo peso!");
+				System.out.print("VocÃª estÃ¡ com baixo peso!");
 			}else if (IMC <= 24.9) {
-				System.out.print("Você está com o peso normal!");
+				System.out.print("VocÃª estÃ¡ com o peso normal!");
 			}else if (IMC <= 29.9) {
-				System.out.print("Você está com sobrepeso!");
+				System.out.print("VocÃª estÃ¡ com sobrepeso!");
 			}else if(IMC <= 34.9) {
-				System.out.print("Você está com obesidade!");
+				System.out.print("VocÃª estÃ¡ com obesidade!");
 			}else {
-				System.out.print("\nVocê está com obesidade mórbida");
+				System.out.print("\nVocÃª estÃ¡ com obesidade mÃ³rbida");
 			}
 		
 		}
